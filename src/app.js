@@ -7,19 +7,36 @@ import "./assets/img/4geeks.ico";
 
 window.onload = function () {
   //write your code here
+
   let pronoun = ['the', 'my', 'our', 'your'];
+
   let adjective = ['fuzzy', 'clean', 'crazy', 'smelly'];
+
   let noun = ['mother', 'capibara', 'robot', 'coffee'];
-  let extention = ['com', 'es', 'ar', 'net'];
+
+  let extension = ['.com', '.net', '.shop', '.ar']
 
 
-  function generateDom() {
-    let randomPronoun = pronoun[Math.floor(Math.random() * pronoun.length)];
-    let randomAdjective = adjective[Math.floor(Math.random() * adjective.length)];
-    let randomNoun = noun[Math.floor(Math.random() * noun.length)];
-    let randomExtention = extention[Math.floor(Math.random() * extention.length)];
-    return `${randomPronoun}${randomAdjective}${randomNoun}.${randomExtention}`;
+  for (let i = 0; i < pronoun.length; i++) {
+
+    for (let j = 0; j < adjective.length; j++) {
+
+      for (let k = 0; k < noun.length; k++) {
+
+        for (let l = 0; l < extension.length; l++) {
+
+          const ranDom = pronoun[i] + adjective[j] + noun[k] + extension[l];
+
+          console.log(ranDom);
+
+        }
+
+      }
+
+    }
+
   }
 
-  console.log(generateDom());
 }
+
+
