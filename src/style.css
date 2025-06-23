@@ -5,23 +5,40 @@ body{
 
 }
 
-#containerBox{
-    width: 100%;
-    max-width: 900px;
-    padding: 2.5rem;
-    box-shadow:  0 8px 32px 0 rgba(0, 0, 0, 0.3);
-    border: 1px #969b9b solid;
+#app-container{
+    border-color:#5f6161;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
 }
 
-h3{
-    color: #00CCBF;
+h1 {
+    font-family: Atkinson Hyperlegible Mono;
+    font-size: 77px;
+
+}
+
+#header p{
+    color:aliceblue;
+    font-family: Alumni Sans Pinstripe;
+    font-size: 24px;
+    font-weight: bolder;
+
 }
 
 #btnGenerar{
-    background-color: #00CCBF;
-    border-color: #72F2EB;
+    font-family: Poiret One;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#footerBtn{
+    color:aliceblue;
+    font-family: Alumni Sans Pinstripe;
+    font-size: 24px;
 }
 
 #ContenedorDominios{
     min-height: 200px;
+    color: whitesmoke
 }
