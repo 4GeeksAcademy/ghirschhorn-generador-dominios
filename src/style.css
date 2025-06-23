@@ -1,5 +1,27 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
 body{
-    background: white;
+ background-color: #747E7E
+
+}
+
+#containerBox{
+    width: 100%;
+    max-width: 900px;
+    padding: 2.5rem;
+    box-shadow:  0 8px 32px 0 rgba(0, 0, 0, 0.3);
+    border: 1px #969b9b solid;
+}
+
+h3{
+    color: #00CCBF;
+}
+
+#btnGenerar{
+    background-color: #00CCBF;
+    border-color: #72F2EB;
+}
+
+#ContenedorDominios{
+    min-height: 200px;
 }
